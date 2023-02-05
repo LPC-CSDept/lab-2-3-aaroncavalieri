@@ -10,6 +10,7 @@ def main():
     val2 = input(("Value 2: "))
     val3 = input(("Value 3: "))
     """
+
     
     
     sum = int(val1) + int(val2) + int(val3) #added int incase input field is used
