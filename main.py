@@ -13,7 +13,6 @@ def main():
     
     sum = int(val1) + int(val2) + int(val3) #added int incase input field is used
     avg = sum / 3 
-
     
 
     print ("Values: {0:2d} {1:3d} {2:4d}" .format(val1, val2, val3))
