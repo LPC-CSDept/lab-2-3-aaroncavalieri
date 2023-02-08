@@ -1,17 +1,12 @@
 def main():
     ##################################################
+
+    val1 = int(input("Value 1: "))
+    val2 = int(input("Value 2: "))
+    val3 = int(input("Value 3: "))
     
-    val1 = 100
-    val2 = 90
-    val3 = 110
     
-    """
-    val1 = input(("Value 1: "))
-    val2 = input(("Value 2: "))
-    val3 = input(("Value 3: "))
-    """
-    
-    sum = int(val1) + int(val2) + int(val3) #added int incase input field is used
+    sum = val1 + val2 + val3 
     avg = sum / 3 
     
 
